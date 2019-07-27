@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html { 
-    background: url(images/obrazki_n_214076_galaktyka-andromeda-kosmos.jpg) no-repeat center center fixed; 
+    background: url(images/obrazki_n_245610_kosmos-planeta-ziemia-gwiazdy.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
