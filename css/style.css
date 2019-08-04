@@ -12,6 +12,5 @@ html {
 }
 
 .bg-my {
-    background-color: black;
-    opacity: 0.5;
+    background-image: linear-gradient(90deg, #5e6397 0%, #0a0712 40%)
 }
