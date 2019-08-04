@@ -46,6 +46,7 @@ html {
 
 #home header {
     text-align: left;
+    width: 250px;
     min-width: 250px;
 }
 
