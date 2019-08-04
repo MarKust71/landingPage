@@ -11,6 +11,7 @@ html {
     background-size: cover;
 }
 
-.bg-secondary {
-    opacity: 1.0;
+.bg-my {
+    background-color: black;
+    opacity: 0.5;
 }
