@@ -57,6 +57,18 @@ html {
     width: 100%;
 }
 
+
+
+
+
+.wrapper {
+    width: 45em;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .myHome {
     padding: 0;
     height: 20em;
