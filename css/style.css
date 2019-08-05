@@ -56,3 +56,11 @@ html {
 #home img {
     width: 100%;
 }
+
+.myHome {
+    padding: 0;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
