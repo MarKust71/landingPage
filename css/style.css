@@ -9,6 +9,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.75em;
 }
 
 .bg-my {
@@ -26,4 +30,16 @@ body {
     align-items: center;
     justify-content: center;
     transition: opacity 1s ease-in-out;
+}
+
+.myHome {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
