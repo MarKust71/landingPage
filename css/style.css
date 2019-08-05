@@ -20,8 +20,7 @@ html {
     margin-right: auto;
     /* width: 1100px; */
     text-align: center;
-    background-color: white;
-    opacity: 0.2;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .panel {
