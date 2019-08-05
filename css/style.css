@@ -15,14 +15,16 @@ html {
     background-image: linear-gradient(90deg, #5e6397 0%, #0a0712 40%)
 }
 
-/*.container {
-    margin-left: auto;
+.container {
+    min-height: 100vh;
+/*    margin-left: auto;
     margin-right: auto;
     width: 1100px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.4);
-}
 */
+}
+
 /*
 .panel {
     transition: opacity 0.25s ease-in-out;
@@ -65,7 +67,6 @@ html {
 .wrapper {
     width: 45em;
     margin: 0 auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
