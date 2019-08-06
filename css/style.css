@@ -47,6 +47,8 @@ body {
 
 .intro {
     height: 20em;
+    display: flex;
+    align-items: center;
 }
 
 .intro header {
