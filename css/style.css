@@ -69,6 +69,6 @@ body {
 }
 
 .pic img {
-    width: 100%;
-    margin: 0 auto;
+    animation: hunt 60s linear infinite;
+    height: 100%;
 }
