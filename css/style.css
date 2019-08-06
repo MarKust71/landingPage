@@ -10,9 +10,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-size: 14pt;
-/*
-    font-family: sans-serif;
-*/
     font-weight: 300;
     line-height: 1.75em;
 }
@@ -39,6 +36,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
+    max-width: 1200px;
     background-color: rgba(255, 255, 255, 0.3);
     transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
     margin: 0;
@@ -60,7 +58,7 @@ body {
 }
 
 .pic {
-    width: 34em;
+    width: 21em;
     height: 100%;
 }
 
@@ -87,3 +85,19 @@ body {
     }
   }
 */  
+
+@media only screen and (max-width: 855px)  {
+    .intro {
+        flex-direction: column;
+        height: auto;
+    }
+    .myHome {
+        max-width: 750px;
+    }
+    .pic {
+        width: 100%;
+    }
+    .pic img {
+        width: 100%;
+    }
+}
