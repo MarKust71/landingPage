@@ -73,5 +73,6 @@ body {
 }
 
 .hunt {
+    background: url("images/obrazki_n_257282_smierc-dziecko-rowerki-pasy-droga.jpg") repeat-x;
     animation: hunt 60s linear infinite;
 }
