@@ -62,7 +62,6 @@ body {
 .pic {
     width: 34em;
     height: 100%;
-    position: relative;
 }
 
 .pic img {
