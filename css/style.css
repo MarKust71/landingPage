@@ -67,3 +67,7 @@ body {
     width: 17em;
     height: 100%;
 }
+
+.pic img {
+    width: 100%;
+}
