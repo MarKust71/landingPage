@@ -72,7 +72,7 @@ body {
     background: url("../images/obrazki_n_257282_smierc-dziecko-rowerki-pasy-droga.jpg") repeat-x;
     animation: hunt 60s linear infinite;
     background-size: cover;
-    width: 35em;
+    width: 34em;
     height: 100%;
     position: absolute;
 }
