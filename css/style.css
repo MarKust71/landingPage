@@ -60,3 +60,10 @@ body {
     margin-bottom: 0;
     width: 100%;
 }
+
+.pic {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 17em;
+    height: 100%;
+}
