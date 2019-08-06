@@ -54,16 +54,12 @@ body {
 }
 
 .intro header {
-    flex-grow: 1;
-    flex-shrink: 1;
     padding: 3.5em 2.5em;
     margin-bottom: 0;
     width: 100%;
 }
 
 .pic {
-    flex-grow: 0;
-    flex-shrink: 0;
     width: 34em;
     height: 100%;
 }
