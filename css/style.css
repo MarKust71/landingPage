@@ -78,6 +78,7 @@ body {
     background-size: cover;
     width: 35em;
     height: 100%;
+    position: absolute;
 }
 
 @keyframes hunt {
