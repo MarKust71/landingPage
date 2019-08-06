@@ -66,25 +66,13 @@ body {
     height: 100%;
 }
 
-/*
-.hunt {
-    background: url("../images/obrazki_n_257282_smierc-dziecko-rowerki-pasy-droga.jpg") repeat-x;
-    animation: hunt 60s linear infinite;
-    background-size: cover;
-    width: 34em;
-    height: 100%;
-    position: absolute;
+#hunt {
+    transition: transform 0.5s ease-in-out;
 }
 
-@keyframes hunt {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -1500px;
-    }
-  }
-*/  
+#hunt:hover {
+    transform: translateX(-205px);
+}
 
 @media only screen and (max-width: 855px)  {
     .intro {
@@ -99,5 +87,8 @@ body {
     }
     .pic img {
         width: 100%;
+    }
+    #hunt:hover {
+        transform: unset !important;
     }
 }
