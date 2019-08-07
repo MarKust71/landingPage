@@ -10,6 +10,7 @@
         <script src="https://kit.fontawesome.com/4de7a4839e.js"></script>
         -->
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script src="js/script.js"></script>
         <title>CC MarKus</title>
     </head>
     <body>
@@ -52,8 +53,9 @@
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle"> Private </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link"> Contact </a>
+                        <li class="nav-item" id="navCont">
+                            <a href="#" class="nav-link" onclick="onoff();"> Contact </a>
+                            <span class="tooltiptext" id="tooltip">click it!</span>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle"> Social </a>
@@ -66,7 +68,7 @@
         <main>
             <section class="lanpag">
                 <div class="container">
-                    <div class="myHome">
+                    <div class="myHome" id="myHome">
                         <article class="intro">
                             <header>
                                 <h1>Marek Kustosz</h1>

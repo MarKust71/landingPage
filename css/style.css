@@ -17,7 +17,7 @@ body {
 .bg-my {
     background-image: linear-gradient(90deg, #5e6397 0%, #0a0712 40%);
     opacity: 0;
-    animation: entre 2s ease-in-out 2s forwards;
+    animation: entre 2s ease-in-out 4s forwards;
 }
 
 .container {
@@ -105,4 +105,23 @@ body {
     100% {
       opacity: 1;
     }
+  }
+
+.tooltiptext {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 90%;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+#navCont:hover .tooltiptext {
+      visibility: visible;
   }
