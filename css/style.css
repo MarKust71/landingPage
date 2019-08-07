@@ -15,7 +15,9 @@ body {
 }
 
 .bg-my {
-    background-image: linear-gradient(90deg, #5e6397 0%, #0a0712 40%)
+    background-image: linear-gradient(90deg, #5e6397 0%, #0a0712 40%);
+    opacity: 0;
+    animation: entre 2s ease-in-out 2s forwards;
 }
 
 .container {
@@ -43,12 +45,15 @@ body {
     padding: 0;
     border: 0;
     vertical-align: baseline;
+    opacity: 0;
+    animation: entre 2s ease-in-out 2s forwards;
 }
 
 .intro {
     height: 20em;
     display: flex;
     align-items: center;
+
 }
 
 .intro header {
@@ -92,3 +97,12 @@ body {
         transform: unset !important;
     }
 }
+
+@keyframes entre {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
